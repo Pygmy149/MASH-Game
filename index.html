@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- HEAD SECTION STARTS -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
     <title>MASH</title>
-   <link href="normalize.css" rel="stylesheet">
-   <link href="style.css" rel="stylesheet">
+    <link href="" rel="stylesheet">
+    <link href="" rel="stylesheet">
   </head>
-  <!-- HEAD SECTION ENDS -->
 
-  <!-- BODY SECTION STARTS -->
   <body>
     <h1>MASH</h1>
     <p class="description">Fill in the blanks and your future will be foretold.</p>
     <form action="" method="post" id="mash">
       <div id="answers" class="hide">
-        <p>You live in <span id="answer_1"></span> with <span id="answer_3"></span> as you are a <span id="answer_2"></span> who owns a <span id="home"></span>.
+        <p> What country will you live? <span id="answer_1"></span> Your future lifestyle will be? <span id="answer_3"></span> What's your future car? <span id="answer_2"></span> What kind of pet will you own? <span id="home"></span>.
       </div>
       <div class="bucket">
         <div class="choice-bucket">
-          <h4 class="highlight">You live in?</h4>
-          <title="Japan">
-          <title="Germany">
-          <title="Australia">
-          <title="USA">
-        </div>
-      <div class="bucket">
-        <div class="choice-bucket">
-          <h4 class="highlight">How many kids will you have?</h4>
-          <title="10">
-          <title="5">
-          <title="0">
-          <title="3">
+          <h4 class="highlight"> What country will you live? </h4>
+          <input type="text" name="answer_1[]">
+          <input type="text" name="answer_1[]">
+          <input type="text" name="answer_1[]">
+          <input type="text" name="answer_1[]">
         </div>
         <div class="choice-bucket">
-          <h4 class="highlight">Your future lifestyle will be?</h4>
-          <title="Vegan">
-          <title="Bodybuilder">
-          <title="Vegetarian">
-          <title="Omnivore">
+          <h4 class="highlight"> Your future lifestyle will be? </h4>
+          <input type="text" name="answer_2[]">
+          <input type="text" name="answer_2[]">
+          <input type="text" name="answer_2[]">
+          <input type="text" name="answer_2[]">
         </div>
         <div class="choice-bucket">
-          <h4 class="highlight">What's your future car?</h4>
-          <title="Audi R8">
-          <title="Toyota Prius">
-          <title="Stingray Corvette">
-          <title="1969 Dodge Charger">
+          <h4 class="highlight"> What's your future car? </h4>
+          <input type="text" name="answer_3[]">
+          <input type="text" name="answer_3[]">
+          <input type="text" name="answer_3[]">
+          <input type="text" name="answer_3[]">
+        </div>
+         <div class="choice-bucket">
+          <h4 class="highlight"> What kind of pet will you own? </h4>
+           <input type="text" name="home[]">
+           <input type="text" name="home[]">
+           <input type="text" name="home[]">
+           <input type="text" name="home[]">
         </div>
       </div>
       <button type="submit" class="button-submit">Tell my fortune</button>
     </form>  
     <script src=""></script>
   </body>
-  <!-- BODY SECTION ENDS -->
 
 </html>
